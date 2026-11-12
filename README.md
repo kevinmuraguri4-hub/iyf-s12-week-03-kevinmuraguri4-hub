@@ -31,6 +31,13 @@ bash scripts/create-html-boilerplate.sh sample.html
 
 The HTML generator refuses to overwrite an existing file. Open the generated HTML file in a browser to view it.
 
+## Branching and Pull Request Practice
+A solo feature branch was used to add `about.html`, and [PR #1](https://github.com/kevinmuraguri4-hub/iyf-s12-week-03-kevinmuraguri4-hub/pull/1) was merged into `main`. This is separate from the required pair-collaboration lab.
+
+See [docs/git-workflow-practice.md](docs/git-workflow-practice.md) for local branching, merge-conflict, push/pull, and commit-message exercises.
+
+See [docs/terminal-command-practice.md](docs/terminal-command-practice.md) for the terminal command practice reference.
+
 ## Daily Challenge 1
 The starter page is in `daily-challenge-1/src/index.html`, with styles in `daily-challenge-1/src/css/style.css` and JavaScript in `daily-challenge-1/src/js/app.js`.
 
@@ -39,7 +46,11 @@ The starter page is in `daily-challenge-1/src/index.html`, with styles in `daily
 iyf-s12-week-03-kevinmuraguri4-hub/
 ├── .gitignore
 ├── README.md
+├── about.html
 ├── terminal-log.md
+├── docs/
+│   ├── git-workflow-practice.md
+│   └── terminal-command-practice.md
 ├── scripts/
 │   ├── new-project.sh
 │   └── create-html-boilerplate.sh
