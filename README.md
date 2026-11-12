@@ -1,45 +1,45 @@
 # Kevin Muraguri — Week 03: Tools & Workflow
 
+This repository contains my IYF Season 12 Week 3 practice work for command-line essentials and Git/GitHub workflow.
+
 ## Author
 - **Name:** Kevin Muraguri
 - **GitHub:** [@kevinmuraguri4-hub](https://github.com/kevinmuraguri4-hub)
-- **Date:** November 12, 2026
 
-## Project Description
-This repository is the Week 3 portfolio workspace for the IYF Season 12 programme. It is used to practise command-line file management, shell scripting, Git version control, branching, merging, GitHub collaboration, and professional project documentation.
+## Week 3 Goals
+- Navigate folders and manage files from Git Bash.
+- Use `find`, `grep`, `head`, `tail`, `wc`, and `history`.
+- Write Bash scripts to automate project setup and HTML boilerplate creation.
+- Practise Git commits, branches, merges, and merge-conflict resolution.
+- Use GitHub remotes, pull requests, and `.gitignore`.
+- Document projects clearly with Markdown.
 
-The Week 2 portfolio pages and assets have not yet been added to this repository. The live portfolio link and screenshot will be added after the portfolio is copied and GitHub Pages is configured.
+## Files in This Repository
+- `scripts/new-project.sh` — creates a project folder with source, CSS, JavaScript, images, docs, and tests directories.
+- `scripts/create-html-boilerplate.sh` — creates a basic HTML5 page with viewport metadata and linked CSS/JavaScript.
+- `daily-challenge-1/` — starter project for the terminal-only setup challenge.
+- `terminal-log.md` — a record for commands I personally run. It is a template until I fill it with my actual terminal history.
+- `.gitignore` — excludes common dependency, editor, OS, and temporary files.
 
-## Technologies Used
-- HTML5
-- CSS3
-- JavaScript (starter practice file)
-- Bash
-- Git
-- GitHub
-
-## Current Files and Features
-- Shell script to generate a standard project folder structure
-- Shell script to generate an HTML5 boilerplate page
-- Starter HTML, CSS, and JavaScript files for Daily Challenge 1
-- Git ignore rules for dependencies, editor settings, operating-system files, and temporary files
-
-## How to Run the Practice Scripts
-Run these commands from the repository root in Git Bash (Windows) or a Unix-like terminal:
+## How to Run the Scripts
+Use Git Bash on Windows, or a Bash-compatible terminal on macOS/Linux. Run commands from the repository root:
 
 ```bash
-bash scripts/new-project.sh my-new-project
+bash scripts/new-project.sh my-practice-project
 bash scripts/create-html-boilerplate.sh sample.html
 ```
 
-The boilerplate script will not overwrite an existing file. Open generated HTML files in a browser to view them.
+The HTML generator refuses to overwrite an existing file. Open the generated HTML file in a browser to view it.
+
+## Daily Challenge 1
+The starter page is in `daily-challenge-1/src/index.html`, with styles in `daily-challenge-1/src/css/style.css` and JavaScript in `daily-challenge-1/src/js/app.js`.
 
 ## Project Structure
 ```text
 iyf-s12-week-03-kevinmuraguri4-hub/
 ├── .gitignore
 ├── README.md
-├── CONTIBUTERS.md
+├── terminal-log.md
 ├── scripts/
 │   ├── new-project.sh
 │   └── create-html-boilerplate.sh
@@ -53,26 +53,23 @@ iyf-s12-week-03-kevinmuraguri4-hub/
             └── app.js
 ```
 
-## What I Am Learning
-- Navigating directories and managing files from the command line
-- Using `find`, `grep`, `head`, `tail`, `wc`, and `history`
-- Initialising repositories, staging files, and writing meaningful commits
-- Creating feature branches and merging changes
-- Identifying and resolving merge conflicts
-- Connecting local repositories to GitHub and synchronising with push and pull
-- Using `.gitignore` to keep generated and local files out of version control
+## What I Learned / Am Practising
+- Creating and navigating directory structures from the terminal.
+- Creating, copying, moving, renaming, and deleting files safely.
+- Searching file names and file contents with command-line tools.
+- Automating repetitive setup with Bash scripts.
+- Tracking changes with Git and writing meaningful commit messages.
+- Using branches and merges to organise development work.
+- Synchronising local work with GitHub using push and pull.
 
-## Challenges Faced
-The Week 2 portfolio has not yet been copied into this repository, so the final portfolio structure, screenshots, and deployed URL are still pending. Terminal exercises and Git workflows must be completed locally so the command log and commit history reflect work actually performed.
+## Terminal Practice Evidence
+See [terminal-log.md](terminal-log.md). The assignment requires this log to contain only commands actually executed by me. I will fill in the commands and answers after completing the exercises locally; no commands or results are invented here.
 
-## Terminal Practice Log
-See [terminal-log.md](terminal-log.md). Only commands personally executed should be recorded there.
+## Week 2 Portfolio and Deployment
+The assignment requires the Week 2 portfolio (including its pages, stylesheet, and images) to be copied into this repository and GitHub Pages to be enabled. Those portfolio files are not currently present in this repository, so the live portfolio link and screenshot are pending. The Week 2 files must be added before the site can be deployed as the graded portfolio.
 
 ## Collaboration
-The Week 3 pair-collaboration lab requires a real partner, shared repository, pull requests, review, and a merge-conflict resolution. Those activities and their links have not yet been supplied, so no partner or pull-request details are claimed here. Add the real partner and PR links after completing the lab. If no partner engages, document that accurately as permitted by the assignment.
+The pair lab requires a real partner, a shared pair repository, feature branches, pull requests, reviews, and a jointly resolved conflict. No partner or pair-repository details have been provided, so I have not invented collaboration links. Add the actual partner, pair repo, PR opened, PR reviewed, and merge-conflict PR here after completing the lab. If no partner engages, document that accurately as allowed by the assignment.
 
-## Live Demo
-Not deployed yet. Enable GitHub Pages after copying the Week 2 portfolio into this repository, then replace this section with the verified live URL.
-
-## Screenshot
-Add a real screenshot of the completed portfolio after it has been copied and deployed.
+## Contact
+- GitHub: [@kevinmuraguri4-hub](https://github.com/kevinmuraguri4-hub)
